@@ -7,53 +7,8 @@ body {
 	margin-left:-2px;
 	margin-bottom:-2px;
 }
-/*#homenav {
-	top:0;
-	text-align:center;
-}
-	#homenav ul {
-		list-style:none;
-		margin-left:-58px;
-	}
-
-	#homenav li {
-		display:inline-block;
-        width:120px;
-        height:auto;
-        margin-right:-10px;
-        color:#9966CC;
-        font-family:'century gothic', helvetica, sans-serif;
-        -webkit-transition: all .2s ease-in-out;
-    	-moz-transition: all .2s ease-in-out;
-    	-o-transition: all .2s ease-in-out;
-    	transition: all .2s ease-in-out;
-	}
-
-	#homenav li a {
-		text-decoration:none;
-		line-height:40px;
-		font-size:20px;
-		-webkit-transition: all .2s ease-in-out;
-    	-moz-transition: all .2s ease-in-out;
-    	-o-transition: all .2s ease-in-out;
-    	transition: all .2s ease-in-out;
-		
-	}
-
-	#homenav li a:hover {
-		color:#000000  ;
-		border:1px solid #000000;
-		padding:5px;
-		border-radius:10px;
-		-webkit-transition: all .2s ease-in-out;
-    	-moz-transition: all .2s ease-in-out;
-    	-o-transition: all .2s ease-in-out;
-    	transition: all .2s ease-in-out;
-	}*/
 
 #home {
-
-
 width:100%;
 	width:100%;
 	position:relative;
@@ -86,7 +41,7 @@ width:100%;
    	width: 34px;
 	height: 60px;
 	left: 50%;
-	line-height: 1.6;
+	line-height: 50px;
 	margin-left: -30px;
 	margin-top: 37%;
 	border: 2px solid #FAFAFA;
