@@ -59,7 +59,7 @@ width:100%;
 	border-color: #3399CC;
 	opacity:0.9;
 		filter:alpha(opacity=90); /* For IE8 and earlier */
-	-webkit-transition: all .25s ease-in 0s;
+		-webkit-transition: all .25s ease-in 0s;
     	-moz-transition: all .25s ease-in 0s;
     	-o-transition: all .25s ease-in 0s;
     	transition: all .25s ease-in 0s;
@@ -75,9 +75,9 @@ width:100%;
 
 .arrowtrans {
 	-webkit-transition: all .25s ease-in 0s;
-    	-moz-transition: all .25s ease-in 0s;
-    	-o-transition: all .25s ease-in 0s;
-    	transition: all .25s ease-in 0s;
+    -moz-transition: all .25s ease-in 0s;
+    -o-transition: all .25s ease-in 0s;
+    transition: all .25s ease-in 0s;
 }
 
 #homesecond {
@@ -306,6 +306,7 @@ width:100%;
 	margin-bottom:120px;
 	background:inherit;
 	padding-bottom:10px;
+	font-family:'century gothic', helvetica, sans-serif;
 }
 
 	#about hr {
@@ -317,7 +318,6 @@ width:100%;
 	}
 
 	#about h1 {
-		font-family:'century gothic', helvetica, sans-serif;
 		text-align:center;	
 		font-size:54px;
 	}
@@ -328,8 +328,18 @@ width:100%;
 
 	#about li {
 		font-size:24px;
-		font-family:'century gothic', helvetica, sans-serif;
 		margin:30px;
+		margin-left:15%;
+	}
+
+	#about a {
+		text-decoration: none;
+		text-align: center;
+		font-size: 2em;
+		margin-left: 42%;
+		line-height: 50px;
+		color: #3399CC;
+		white-space:nowrap;
 	}
 	
 #coninfo {
