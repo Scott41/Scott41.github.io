@@ -3,9 +3,9 @@
 body {
 	width:100%;
 	min-width:480px;
-	margin-top:-8px;
-	margin-left:-2px;
-	margin-bottom:-2px;
+	margin:0px;
+	background:#FAFAFA;
+	
 }
 
 #home {
@@ -82,15 +82,16 @@ width:100%;
 
 #homesecond {
 	width:100%;
-	height:500px;
+	height:auto;
 	position:relative;
-	z-index:1;
 	color:#FAFAFA;
-	margin-top: 500px;
+	margin-top: 580px;
 }
 	#homesecond h1 {
+		text-align:center;
+		padding-top:100px;
 		font-family:'century gothic', helvetica, sans-serif;
-		font-size:64px;
+		
 	}
 
 	#homesecond hr {
@@ -105,10 +106,12 @@ width:100%;
 		font-family:'century gothic', helvetica, sans-serif;
 		font-size:18px;
 		text-align:center;
+		margin-left:30%;
+		margin-right:30%;
 	}
 
 #arrowwrapper {
-	width: 20%;
+	width: 40%;
 	height: auto;
 	display: block;
 	text-align: center;
@@ -117,7 +120,6 @@ width:100%;
 }
 
 .rightarrow {
-	left: 50%;
 	line-height: 3;
 	color: #FAFAFA;
 	text-decoration: none;
@@ -147,9 +149,13 @@ width:100%;
 	}
 
 #homefoot {
+	margin-top:280px;
+	padding-top:10px;
+	clear:both;
 	text-align:center;
-	bottom:0;
-	margin-top:20%;
+	background:inherit;
+	display:block;
+	position:relative;
 }
 	#homefoot p {
 		font-family:'century gothic', helvetica, sans-serif;
@@ -172,7 +178,7 @@ width:100%;
     background:#FAFAFA;
     width: 100%;
     height:40px;
-    margin-left:0.5px;
+    margin-left:-1px;
     box-shadow: 0px 0px 5px #888888; 
     padding-top:10px;
     z-index:1;
@@ -247,8 +253,8 @@ width:100%;
 	height:100%;
 	width:100%;
 	background-color:#888888;
-	margin-left:0.5px;
 	margin-top:-9px;
+	margin-left:-1px;
 }
 
 .page {
@@ -277,7 +283,7 @@ width:100%;
 	box-shadow: 0px 0px 5px #888888;
 	border:solid 0px;
 	vertical-align:baseline;
-	margin-left:0.5px;
+	margin-left:-1px;
 } 
 
 	.footer p {
@@ -299,10 +305,9 @@ width:100%;
 #about {
 	display:block;
 	height:auto;
-	width:50%;
+	width:100%;
 	text-align:left;
 	margin-top:90px;	
-	margin-left:25%;
 	margin-bottom:120px;
 	background:inherit;
 	padding-bottom:10px;
@@ -329,29 +334,67 @@ width:100%;
 	#about li {
 		font-size:24px;
 		margin:30px;
-		margin-left:15%;
+		margin-left:34%;
+		margin-right:30%;
 	}
 
 	#about a {
 		text-decoration: none;
-		text-align: center;
 		font-size: 2em;
-		margin-left: 42%;
 		line-height: 50px;
 		color: #3399CC;
 		white-space:nowrap;
 	}
 	
+	#about p {
+		margin-left:30%;
+		margin-right:30%;
+		text-align:center;
+	}
+
+#projects {
+	display:block;
+	height:auto;
+	width:100%;
+	margin-top:90px;	
+	margin-bottom:120px;
+	background:inherit;
+	padding-bottom:10px;
+	font-family:'century gothic', helvetica, sans-serif;
+	text-align:left;
+}
+
+	#projects hr {
+		height:4px;
+		width:90px;
+		margin: 2.75em auto 3.25em;
+		border: 0 none;
+		background-color:#3399CC;
+	}
+
+	#projects h1 {
+		text-align:center;
+		font-size:54px;
+	}
+
+	#projects p {
+		text-align:left;
+		font-size: 1.3em;
+		margin-left:30%;
+		margin-right:30%;
+
+
+	}
+
 #coninfo {
 	display:block;
 	height:auto;
-	width:50%;
+	width:100%;
 	margin-top:90px;	
-	margin-left:25%;
-	margin-bottom:50px;
 	background:inherit;
 	padding-bottom:10px;
 	text-align:center;
+	font-family:'century gothic', helvetica, sans-serif;
 }	
 
 	#coninfo hr {
@@ -363,12 +406,12 @@ width:100%;
 	}
 	
 	#coninfo h1 {
-		font-family:'century gothic', helvetica, sans-serif;
 		font-size: 54px;
 	}
 
 	#coninfo p {
-		font-family:'century gothic', helvetica, sans-serif;
+		margin-left:30%;
+		margin-right:30%;
 		font-size: 24px;
 		padding-left: 30px;
 		padding-right: 30px;
@@ -376,17 +419,22 @@ width:100%;
 	}
 
 	#coninfo h3 {
-		font-family:'century gothic', helvetica, sans-serif;
 		font-size:32px;
 		color:#3399CC;
 	}
+
+#messagecontainer {
+	width:40%;
+	text-align:center;
+	margin-left:30%;
+	margin-bottom:50px;
+}
 
 #contactbuttons {
 	clear: both;
 	height: auto;
 	width: 60%;
 	display: block;
-	margin-top: 245px;
 	margin-bottom: 70px;
 	margin-left: 20%;
 	position: relative;
