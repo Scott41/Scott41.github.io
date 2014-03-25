@@ -16,6 +16,8 @@ $(document).ready(function(){
     $(this).fadeTo(1,0);
     });*/
 
+
+/*smooth scrolling function*/
     $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
