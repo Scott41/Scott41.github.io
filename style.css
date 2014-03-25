@@ -5,11 +5,23 @@ body {
 	min-width:480px;
 	margin:0px;
 	background:#FAFAFA;
-	
+
+}
+
+#homeimage {
+	background-image:url('http://i.imgur.com/CamJhQO.jpg');
+	background-repeat: no-repeat;
+	background-position:bottom;
+	background-size:cover;
+	height:100%;
+	width:100%;
+	background-color:#888888;
+	margin-top:-9px;
+	margin-right:-2px;
 }
 
 #home {
-width:100%;
+	width:100%;
 	width:100%;
 	position:relative;
 	text-align:center;
@@ -244,18 +256,6 @@ width:100%;
     	-o-transition: all .2s ease-in-out;
     	transition: all .2s ease-in-out;
     }
-
-#homeimage {
-	background-image:url('http://i.imgur.com/CamJhQO.jpg');
-	background-repeat: no-repeat;
-	background-position:bottom;
-	background-size:cover;
-	height:100%;
-	width:100%;
-	background-color:#888888;
-	margin-top:-9px;
-	margin-left:-1px;
-}
 
 .page {
 	min-width:480px;
