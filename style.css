@@ -103,7 +103,7 @@ body {
 		text-align:center;
 		padding-top:100px;
 		font-family:'century gothic', helvetica, sans-serif;
-		
+		font-size:4em;
 	}
 
 	#homesecond hr {
@@ -169,6 +169,7 @@ body {
 	display:block;
 	position:relative;
 }
+
 	#homefoot p {
 		font-family:'century gothic', helvetica, sans-serif;
 		font-size:16px;
