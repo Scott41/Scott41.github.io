@@ -36,14 +36,17 @@ body {
 	width:100%;
 	position:relative;
 	text-align:center;
-	padding-top:260px;	
+	padding-top:125px;	
 	margin-bottom:120px;
 	padding-bottom:10px;
 	text-align:center;
 	color:#FAFAFA;
 	font-family:'century gothic', helvetica, sans-serif;
 }
-	
+
+@media (min-width: 40rem) {
+#home { padding-top:260px;; }
+}
 	#home h1 {
 		font-family:'century gothic', helvetica, sans-serif;
 		font-size: 4rem;
@@ -62,19 +65,24 @@ body {
 	}
 
 .downarrow {
-   	width: 34px;
-	height: 60px;
-	left: 50%;
-	line-height: 50px;
-	margin-left: -30px;
-	margin-top: 100%;
-	border: 2px solid #FAFAFA;
-	border-radius: 50px;
+	margin-top:100%;
 	color: #FAFAFA;
 	text-decoration: none;
-	font-size: 2.1em;
-	padding: 2px 16px;
-	position: absolute;
+	font-size: 30px;
+	position: relative;
+	padding:7px 24px 16px 24px;
+	border:2px solid #FAFAFA;
+	border-radius:60px;
+	position:absolute;
+	margin-left:-34px;
+}
+
+@media (min-width: 40rem) {
+	.downarrow { 
+		font-size:46px; 
+		padding: 0 24px 14px 24px;
+
+	}
 }
 
 .downarrow:hover {
