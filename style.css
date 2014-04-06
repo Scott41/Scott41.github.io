@@ -74,8 +74,8 @@ body {
 	padding:4px 26px 12px 26px;
 	border:2px solid #FAFAFA;
 	border-radius:60px;
-	position:absolute;
 	margin-left:-8.5%;
+	position:absolute;
 }
 
 @media (min-width: 40rem) {
