@@ -1,12 +1,14 @@
-@-ms-viewport {width: device-width;}
-
 html {
-  font: 100%
+  font-size: 82%;
+  font-weight: 500;
+}
+
+@media (min-width: 40rem) {
+  html { font-size: 100%; }
 }
 
 body {
 	width:100%;
-	min-width:480px;
 	margin:0px;
 	background:#FAFAFA;
 
@@ -192,13 +194,16 @@ body {
 		transition: all 1.5s ease-in 0s;
 }
 
+.menu-container {
+	width:1005;
+}
+
 #menubar {
     text-align:center;
     position: relative;
     background:#FAFAFA;
     width: 100%;
     height:40px;
-    margin-left:-1px;
     box-shadow: 0px 0px 5px #888888; 
     padding-top:10px;
     z-index:1;
@@ -209,29 +214,34 @@ body {
 
 	#menubar ul {
 		margin-top: .4px;
-		margin-left: -40px;
 		list-style: none;
+		-webkit-margin-before: 0em;
+		-webkit-margin-after: 0em;
+		-webkit-margin-start: 0px;
+		-webkit-margin-end: 0px;
+		-webkit-padding-start: 0px;
 	}
 
     #menubar li {       
         display:inline-block;
-        width:120px;
+        width:8rem;
         height:36px;
-        margin-left:-4px;
         margin-bottom:-10px;  
     }
     
     #menubar li.button {                
-        width:120px;
+        width:8rem;
         line-height:36px;
         background: inherit;
+        margin-right:-4px;
     }
 
     #menubar li.buttonselected {
+    	margin-right:-4px;
         border-bottom: solid 4px #3399CC;
         background: inherit;
         line-height:28px;
-        width:120px;
+        width:8rem;
     }
   
     #menubar a { 
@@ -240,7 +250,7 @@ body {
     	display:block; 
     	color:#000000; 
     	text-decoration:none; 
-    	font-size:1.1em;
+    	
     	font-family: 'Lato','century gothic', helvetica, sans-serif;
     -webkit-transition: all .2s ease-in-out;
     	-moz-transition: all .2s ease-in-out;
@@ -266,7 +276,7 @@ body {
     }
 
 .page {
-	min-width:480px;
+	
 	text-align:center;
 	display:block;
     position:relative;
@@ -291,7 +301,6 @@ body {
 	box-shadow: 0px 0px 5px #888888;
 	border:solid 0px;
 	vertical-align:baseline;
-	margin-left:-1px;
 } 
 
 	.footer p {
