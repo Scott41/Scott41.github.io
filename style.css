@@ -1,6 +1,6 @@
 html {
-  font-size: 82%;
-  font-weight: 500;
+  font-size: 75%;
+  font-weight: 400;
 }
 
 @media (min-width: 40rem) {
@@ -46,6 +46,7 @@ body {
 	
 	#home h1 {
 		font-family:'century gothic', helvetica, sans-serif;
+		font-size: 4rem;
 	}
 
 	#home hr {
@@ -114,7 +115,7 @@ body {
 		text-align:center;
 		padding-top:100px;
 		font-family:'century gothic', helvetica, sans-serif;
-		font-size:3.5em;
+		font-size:3rem;
 	}
 
 	#homesecond hr {
@@ -127,7 +128,7 @@ body {
 
 	#homesecond p {
 		font-family:'century gothic', helvetica, sans-serif;
-		font-size:18px;
+		font-size:1.2rem;
 		text-align:center;
 	}
 
@@ -181,7 +182,7 @@ body {
 
 	#homefoot p {
 		font-family:'century gothic', helvetica, sans-serif;
-		font-size:16px;
+		font-size:1.1rem;
 		color:#FAFAFA;
 	}
 
@@ -210,6 +211,7 @@ body {
     overflow: hidden;
         overflow-y: hidden;
         overflow-x: hidden;  
+
 }
 
 	#menubar ul {
@@ -227,13 +229,24 @@ body {
         width:8rem;
         height:36px;
         margin-bottom:-10px;  
+        font-size:1.2em;
     }
     
+	#menubar li.button {                
+        width:6rem;
+        line-height:36px;
+        background: inherit;
+        margin-right:-4px;
+    }
+    
+
+    @media (min-width: 40rem) {
     #menubar li.button {                
         width:8rem;
         line-height:36px;
         background: inherit;
         margin-right:-4px;
+    	}
     }
 
     #menubar li.buttonselected {
@@ -241,9 +254,18 @@ body {
         border-bottom: solid 4px #3399CC;
         background: inherit;
         line-height:28px;
-        width:8rem;
+        width:6rem;
     }
-  
+
+    @media (min-width: 40rem) {
+    #menubar li.buttonselected {
+    	margin-right:-4px;
+        border-bottom: solid 4px #3399CC;
+        background: inherit;
+        line-height:28px;
+        width:8rem;
+    	}
+  	}
     #menubar a { 
         padding-bottom:4px;
     	border-bottom: 4px solid #3399CC;
@@ -307,7 +329,7 @@ body {
 		white-space:pre-wrap;
 		text-align:center;
 		font-family: 'Lato','century gothic', helvetica, sans-serif;
-		font-size: 16px;
+		font-size: 1.1rem;
 		padding-top:50px;
 	}
 
@@ -341,14 +363,14 @@ body {
 
 	#about h1 {
 		text-align:center;	
-		font-size:54px;
+		font-size:4rem;
 	}
 
 	#about ul {
 	}
 
 	#about li {
-		font-size:24px;
+		font-size:1.5rem;
 		margin:30px;
 	}
 
@@ -400,7 +422,7 @@ body {
 
 	#projects h1 {
 		text-align:center;
-		font-size:54px;
+		font-size:3.5rem;
 	}
 
 	#projects p {
@@ -428,7 +450,7 @@ body {
 	}
 	
 	#coninfo h1 {
-		font-size: 54px;
+		font-size: 3.5rem;
 	}
 
 	#coninfo p {
