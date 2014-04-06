@@ -1,11 +1,21 @@
 @-ms-viewport {width: device-width;}
 
+html {
+  font: 100%
+}
+
 body {
 	width:100%;
 	min-width:480px;
 	margin:0px;
 	background:#FAFAFA;
 
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 40rem;
+	width: 90%;
 }
 
 #homeimage {
@@ -21,7 +31,6 @@ body {
 }
 
 #home {
-	width:100%;
 	width:100%;
 	position:relative;
 	text-align:center;
@@ -55,7 +64,7 @@ body {
 	left: 50%;
 	line-height: 50px;
 	margin-left: -30px;
-	margin-top: 37%;
+	margin-top: 100%;
 	border: 2px solid #FAFAFA;
 	border-radius: 50px;
 	color: #FAFAFA;
@@ -118,8 +127,6 @@ body {
 		font-family:'century gothic', helvetica, sans-serif;
 		font-size:18px;
 		text-align:center;
-		margin-left:30%;
-		margin-right:30%;
 	}
 
 #arrowwrapper {
@@ -329,14 +336,11 @@ body {
 	}
 
 	#about ul {
-		margin:50px;
 	}
 
 	#about li {
 		font-size:24px;
 		margin:30px;
-		margin-left:34%;
-		margin-right:30%;
 	}
 
 	#about a {
@@ -345,11 +349,23 @@ body {
 		line-height: 50px;
 		color: #3399CC;
 		white-space:nowrap;
+		-webkit-transition: all .25s ease-in-out;
+		-moz-transition: all .25s ease-in-out;
+		-o-transition: all .25s ease-in-out;
+		transition: all .25s ease-in-out;
+	}
+
+	#about a:hover {
+		opacity:0.8;
+		filter:alpha(opacity=80); /* For IE8 and earlier */
+		-webkit-transition: all .25s ease-in-out;
+		-moz-transition: all .25s ease-in-out;
+		-o-transition: all .25s ease-in-out;
+		transition: all .25s ease-in-out;
 	}
 	
 	#about p {
-		margin-left:30%;
-		margin-right:30%;
+		padding-top:1rem;
 		text-align:center;
 	}
 
@@ -381,10 +397,6 @@ body {
 	#projects p {
 		text-align:left;
 		font-size: 1.3em;
-		margin-left:30%;
-		margin-right:30%;
-
-
 	}
 
 #coninfo {
@@ -411,11 +423,7 @@ body {
 	}
 
 	#coninfo p {
-		margin-left:30%;
-		margin-right:30%;
-		font-size: 24px;
-		padding-left: 30px;
-		padding-right: 30px;
+		font-size: 1.6rem;
 		padding-bottom: 20px;
 	}
 
@@ -425,9 +433,7 @@ body {
 	}
 
 #messagecontainer {
-	width:40%;
 	text-align:center;
-	margin-left:30%;
 	margin-bottom:50px;
 }
 
@@ -445,8 +451,8 @@ body {
 	#contactbuttons a {
 		width: 50px;
 		height: 50px;
-		padding-left:1%;
-		padding-right:1%;
+		padding-left:2%;
+		padding-right:2%;
 		display: inline-block;
 		text-decoration: none;
 	}
