@@ -123,11 +123,20 @@ body {
 	color:#FAFAFA;
 	margin-top: 580px;
 }
+
+
 	#homesecond h1 {
 		text-align:center;
-		padding-top:100px;
+		padding-top:20px;
 		font-family:'century gothic', helvetica, sans-serif;
 		font-size:3rem;
+	}
+
+	@media (min-width: 40rem) {
+
+		#homesecond h1 {
+		padding-top:100px;
+	}
 	}
 
 	#homesecond hr {
