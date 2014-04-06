@@ -491,10 +491,9 @@ body {
 #contactbuttons {
 	clear: both;
 	height: auto;
-	width: 60%;
+	width: 100%;
 	display: block;
 	margin-bottom: 70px;
-	margin-left: 20%;
 	position: relative;
 	border: solid 0px;
 }
