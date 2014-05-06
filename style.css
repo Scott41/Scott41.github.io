@@ -176,7 +176,7 @@ display: block;
    	width: 34px;
 	height: 60px;
 	left: 49%;
-	line-height: 50px;
+	line-height: 40px;
 	margin-left: -30px;
 	margin-top: 100%;
 	border: 2px solid #FAFAFA;
@@ -190,7 +190,7 @@ display: block;
 
 @media (min-width: 40rem) {
 	.downarrow { 
-		padding: 10px 25px 4px 16px;
+		/*padding: 10px 25px 4px 16px;*/
 		position:absolute;
 		margin-left:-34px;
 	}
