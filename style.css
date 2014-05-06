@@ -100,16 +100,26 @@ display: block;
 	}
 }
 
-.img-container {
+.img-column {
 	margin:0;
 	width:100%;
-	margin-left:20%;
+}
+
+@media (min-width:40rem) {
+	.img-column {
+		width:50%;
+		float:left;
+	}
+}
+
+.img-container {
+	margin:0;
+	
 }
 
 @media (min-width:40rem) {
 	.img-container {
-		float:left;
-		width:50%;
+		max-width:80%;
 		margin-left:0;
 	}
 }
@@ -560,10 +570,9 @@ display: block;
 }
 
 #home-project {
-	width:20rem;
-	height:16rem;
-	width:100%;
-	height:100%;
+	margin-top:0;
+	max-width:100%;
+	max-height:100%;
 	-webkit-transition: all .3s ease-in-out;
     	-moz-transition: all .3s ease-in-out;
     	-o-transition: all .3 ease-in-out;
@@ -571,8 +580,6 @@ display: block;
 }
 
 #sm-project {
-	width:20rem;
-	height:16rem;
 	max-width:100%;
 	max-height:100%;
 
@@ -583,15 +590,31 @@ display: block;
 }
 
 #grocery-project {
-	width:10rem;
-	height:16rem;
-	max-width:100%;
-	max-height:100%;
-	-webkit-transition: all .3s ease-in-out;
+	margin-left:30%;
+	max-width:40%;
+		-webkit-transition: all .3s ease-in-out;
     	-moz-transition: all .3s ease-in-out;
     	-o-transition: all .3 ease-in-out;
     	transition: all .3s ease-in-out;
 }
+
+
+@media (min-width:40rem) {
+	#home-project {
+	margin-top:20%;
+	}
+	#grocery-project {
+	margin-left:25%;
+	margin-top:6%;
+	max-width:50%;
+		-webkit-transition: all .3s ease-in-out;
+    	-moz-transition: all .3s ease-in-out;
+    	-o-transition: all .3 ease-in-out;
+    	transition: all .3s ease-in-out;
+	}
+}
+
+
 
 #WP-project {
 	width:20rem;
@@ -604,6 +627,20 @@ display: block;
     	transition: all .3s ease-in-out;
 }
 
+
+ #home-project:hover, #sm-project:hover, #grocery-project:hover, #WP-project:hover {
+ 	opacity:0.8;
+		filter:alpha(opacity=80); 
+		-webkit-transition: all .3s ease-in-out;
+    	-moz-transition: all .3s ease-in-out;
+    	-o-transition: all .3 ease-in-out;
+    	transition: all .3s ease-in-out;
+ }
+
+
+
+/*
+
 .tint {
 	-webkit-margin-before: 1em;
 	-webkit-margin-after: 1em;
@@ -614,14 +651,12 @@ display: block;
 .p1 {
 	max-width:90%;
 	max-height:90%;
-	width:20rem;
 	height:14rem;
 }
 
 .p2 {
 	max-width:90%;
 	max-height:90%;
-	width:20rem;
 	height:16rem;
 }
 
@@ -630,36 +665,39 @@ display: block;
 	max-height:90%;
 	width:10rem;
 	height:16rem;
-	margin-left:15.5%;
+	margin-left:30.5%;
+}
+
+.p4 {
+	max-width:90%;
+		max-height:90%;
+	height:14rem;
 }
 
 @media (min-width:40rem){
 	.p1 {
 		margin-top: 8%;
+		max-width:90%;
+		max-height:90%;
+	}
+	.p2 {
+		max-width:90%;
+		max-height:90%;
 	}
 	.p3 {
+		max-width:90%;
+		max-height:90%;
 		margin-top:5%;
 		margin-left:18%;
 	}
+	.p4 {
+		max-width:90%;
+		max-height:90%;
 
+	}
 }
 
-
-.p4 {
-	max-width:90%;
-	max-height:90%;
-	width:20rem;
-	height:14rem;
-}
-  
- #home-project:hover, #sm-project:hover, #grocery-project:hover, #WP-project:hover {
- 	opacity:0.6;
-		filter:alpha(opacity=60); /* For IE8 and earlier */
-		-webkit-transition: all .3s ease-in-out;
-    	-moz-transition: all .3s ease-in-out;
-    	-o-transition: all .3 ease-in-out;
-    	transition: all .3s ease-in-out;
- }
+ */
 
 #coninfo {
 	display:block;
