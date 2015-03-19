@@ -283,10 +283,12 @@ display: block;
 	line-height: 3;
 	color: #FAFAFA;
 	text-decoration: none;
-	font-size: 400%;
+	font-size: 40px;
+	font-family:'century gothic', helvetica, sans-serif;
 	position: relative;
 	padding-bottom: 5px;
-	padding-left: 26px;
+	padding-top: 5px;
+	padding-left: 20px;
 	padding-right: 20px;
 	border:2px solid #FAFAFA;
 	border-radius:20px;
@@ -702,8 +704,8 @@ display: block;
 	.p3 {
 		
 		margin-left:5rem;
-		width:9.7rem;
-		height:18.3rem;
+		width: 9.8rem;
+height: 17.4rem;
 		margin-bottom:-1rem;
 
 	}
