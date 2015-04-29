@@ -8,30 +8,21 @@ $(document).ready(function(){
       });
     $('.frontbar').css("opacity","1")
 
-
-
-    /*$('.frontbar').hover(function() {
-    $(this).fadeTo(1,1);
-    },function() {
-    $(this).fadeTo(1,0);
-    });*/
-
-
-/*smooth scrolling function*/
-    $(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
+  /* Smooth Scrolling*/
+  $(function() {
+    $('a[href*=#]:not([href=#])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
       }
-    }
+    });
   });
-});
 
 
 
