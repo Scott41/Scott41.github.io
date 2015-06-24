@@ -8,7 +8,7 @@ $(document).ready(function(){
       });
     $('.frontbar').css("opacity","1")
 
-  /* Smooth Scrolling*/
+  // Smooth Scrolling
   $(function() {
     $('a[href*=#]:not([href=#])').click(function() {
       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
