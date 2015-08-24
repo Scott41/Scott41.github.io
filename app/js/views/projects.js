@@ -16,5 +16,6 @@ module.exports = Backbone.View.extend({
     render: function() {
         this.$el.html(template());
         window.scrollTo(0, 0);
+        document.title = "Scott A. - My Projects";
     }
 });

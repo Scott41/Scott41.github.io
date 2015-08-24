@@ -336,6 +336,8 @@ footer {
 #contact {
   margin: 60px auto 40px auto;
   max-width: 600px; }
+  #contact a {
+    text-decoration: none; }
 
 /* End Contact View */
 /* Whole Site */

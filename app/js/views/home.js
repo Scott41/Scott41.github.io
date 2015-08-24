@@ -17,6 +17,7 @@ module.exports = Backbone.View.extend({
     render: function() {
         this.$el.html(template());
         window.scrollTo(0, 0);
+        document.title = "Scott A. - Home";
         setTimeout(function () {
             //$('#down-arrow').mouseenter(function(){
                 $('#down-arrow').removeAttr('style').css("-webkit-transition","all .25s ease-in-out")
