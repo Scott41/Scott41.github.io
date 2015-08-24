@@ -1,0 +1,33 @@
+{
+  "name": "scott41-home",
+  "version": "2.0.0",
+  "description": "Home page",
+  "author": "Scott Archer <sarcher4104@gmail.com>",
+  "dependencies": {
+    "backbone": "^1.2.2",
+    "jquery": "^2.1.4",
+    "jquery.scrollto": "^2.1.1",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "browserify": "^11.0.1",
+    "del": "1.1.1",
+    "finalhandler": "^0.4.0",
+    "gulp": "^3.5.6",
+    "gulp-concat": "^2.2.0",
+    "gulp-minify-css": "^0.3.0",
+    "gulp-nodemon": "^2.0.3",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^1.3.3",
+    "gulp-util": "^2.2.14",
+    "jstify": "^0.12.0",
+    "serve-static": "^1.10.0",
+    "shelljs": "^0.3.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "browserify": {
+    "transform": [
+      "jstify"
+    ]
+  }
+}
