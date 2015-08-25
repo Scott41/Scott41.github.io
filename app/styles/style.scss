@@ -135,7 +135,6 @@ footer {
     @media all and (max-width: 400px) {
       font-size: 12px;
     }
-
     a {
       text-decoration: none;
       color: #000;
@@ -153,7 +152,7 @@ footer {
       flex-wrap: nowrap;
       justify-content: center;
       a {
-        margin: 6px 3px;
+        margin: 6px 4px;
         text-decoration: none;
         @include transition(all, .3s, ease-in-out);
         img {
@@ -161,7 +160,7 @@ footer {
         }
         .twitter {
           width: 25px;
-          margin-top: 6px;
+          margin: 6px 4px 0 2px;
         }
         &:hover {
           opacity: 0.7;
@@ -227,14 +226,10 @@ footer {
     line-height: 36px;
     background: inherit;
     margin-right: -4px;
-  }
-  @media all and (min-width: 600px) {
-    .menu-btn {
+    @media all and (min-width: 600px) {
       width: 100px;
     }
-  }
-  @media all and (min-width: 800px) {
-    .menu-btn {
+    @media all and (min-width: 800px) {
       width: 120px;
     }
   }
@@ -261,6 +256,9 @@ footer {
     max-width: 500px;
     @media all and (min-width: 600px) {
       margin-bottom: 180px;
+    }
+    @media all and (min-width: 1200px) {
+      margin-bottom: 280px;
     }
     .enter {
       width: 200px;
@@ -325,6 +323,9 @@ footer {
 #about {
   margin: 60px auto 40px auto;
   max-width: 500px;
+  @media all and (min-width: 600px) {
+    margin-bottom: 180px;
+  }
   li {
     line-height: 1.8;
   }
@@ -413,6 +414,9 @@ footer {
 #contact {
   margin: 60px auto 40px auto;
   max-width: 600px;
+  @media all and (min-width: 600px) {
+    margin-bottom: 180px;
+  }
   a {
     text-decoration: none;
   }

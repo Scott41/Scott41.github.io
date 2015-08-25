@@ -111,7 +111,7 @@ footer {
       flex-wrap: nowrap;
       justify-content: center; }
       footer #footer-inner #contact-buttons a {
-        margin: 6px 3px;
+        margin: 6px 4px;
         text-decoration: none;
         -ms-transition: all 0.3s ease-in-out;
         /* IE 9 */
@@ -122,7 +122,7 @@ footer {
           width: 30px; }
         footer #footer-inner #contact-buttons a .twitter {
           width: 25px;
-          margin-top: 6px; }
+          margin: 6px 4px 0 2px; }
         footer #footer-inner #contact-buttons a:hover {
           opacity: 0.7; }
 
@@ -185,12 +185,12 @@ footer {
     line-height: 36px;
     background: inherit;
     margin-right: -4px; }
-  @media all and (min-width: 600px) {
-    #menu-bar .menu-btn {
-      width: 100px; } }
-  @media all and (min-width: 800px) {
-    #menu-bar .menu-btn {
-      width: 120px; } }
+    @media all and (min-width: 600px) {
+      #menu-bar .menu-btn {
+        width: 100px; } }
+    @media all and (min-width: 800px) {
+      #menu-bar .menu-btn {
+        width: 120px; } }
   #menu-bar .selected {
     padding-bottom: 0;
     border-bottom: solid 4px #3399CC; }
@@ -210,6 +210,9 @@ footer {
     @media all and (min-width: 600px) {
       #home #intro {
         margin-bottom: 180px; } }
+    @media all and (min-width: 1200px) {
+      #home #intro {
+        margin-bottom: 280px; } }
     #home #intro .enter {
       width: 200px;
       text-align: center; }
@@ -273,6 +276,9 @@ footer {
 #about {
   margin: 60px auto 40px auto;
   max-width: 500px; }
+  @media all and (min-width: 600px) {
+    #about {
+      margin-bottom: 180px; } }
   #about li {
     line-height: 1.8; }
   #about h3 a {
@@ -336,6 +342,9 @@ footer {
 #contact {
   margin: 60px auto 40px auto;
   max-width: 600px; }
+  @media all and (min-width: 600px) {
+    #contact {
+      margin-bottom: 180px; } }
   #contact a {
     text-decoration: none; }
 
