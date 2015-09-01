@@ -33,7 +33,7 @@ body {
     width: 90px;
     margin: 40px auto;
     border: 0 none;
-    background-color: #3399CC; }
+    background-color: #3399C2; }
   @media all and (min-width: 600px) {
     body p {
       text-align: left;
@@ -61,10 +61,6 @@ body {
 
 .shadow {
   box-shadow: 0 0 5px #888888;
-  -ms-transition: all 0s ease-in !important;
-  /* IE 9 */
-  -webkit-transition: all 0s ease-in !important;
-  -moz-transition: all 0s ease-in !important;
   transition: all 0s ease-in !important; }
 
 .center {
@@ -113,10 +109,6 @@ footer {
       footer #footer-inner #contact-buttons a {
         margin: 6px 4px;
         text-decoration: none;
-        -ms-transition: all 0.3s ease-in-out;
-        /* IE 9 */
-        -webkit-transition: all 0.3s ease-in-out;
-        -moz-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out; }
         footer #footer-inner #contact-buttons a img {
           width: 30px; }
@@ -155,30 +147,18 @@ footer {
     margin-bottom: -10px; }
     #menu-bar li a {
       padding-bottom: 4px;
-      border-bottom: 4px solid #3399CC;
+      border-bottom: 4px solid #3399C2;
       display: block;
       color: #000000;
       text-decoration: none;
       outline: none !important;
-      -ms-transition: all 0.2s ease-in-out;
-      /* IE 9 */
-      -webkit-transition: all 0.2s ease-in-out;
-      -moz-transition: all 0.2s ease-in-out;
       transition: all 0.2s ease-in-out; }
     #menu-bar li a:hover {
-      color: #3399CC;
-      -ms-transition: all 0.2s ease-in-out;
-      /* IE 9 */
-      -webkit-transition: all 0.2s ease-in-out;
-      -moz-transition: all 0.2s ease-in-out;
+      color: #3399C2;
       transition: all 0.2s ease-in-out; }
     #menu-bar li:not(.selected) a:hover {
       padding-bottom: 0;
-      color: #3399CC;
-      -ms-transition: all 0.2s ease-in-out;
-      /* IE 9 */
-      -webkit-transition: all 0.2s ease-in-out;
-      -moz-transition: all 0.2s ease-in-out;
+      color: #3399C2;
       transition: all 0.2s ease-in-out; }
   #menu-bar .menu-btn {
     width: 70px;
@@ -193,7 +173,7 @@ footer {
         width: 120px; } }
   #menu-bar .selected {
     padding-bottom: 0;
-    border-bottom: solid 4px #3399CC; }
+    border-bottom: solid 4px #3399C2; }
 
 /* End Menu View */
 /* Home View */
@@ -225,15 +205,11 @@ footer {
         padding: 5px 20px;
         border: 2px solid #fff;
         border-radius: 20px;
-        -ms-transition: all 0.25s ease-in-out;
-        /* IE 9 */
-        -webkit-transition: all 0.25s ease-in-out;
-        -moz-transition: all 0.25s ease-in-out;
         transition: all 0.25s ease-in-out; }
         #home #intro .enter #enter-btn:hover {
           background-color: #686868;
-          color: #3399CC;
-          border-color: #3399CC;
+          color: #3399C2;
+          border-color: #3399C2;
           opacity: 0.9;
           filter: alpha(opacity=90);
           /* For IE8 and earlier */ }
@@ -258,15 +234,11 @@ footer {
     text-align: center; }
     #home #down-arrow:hover {
       background-color: #686868;
-      color: #3399CC;
-      border-color: #3399CC;
+      color: #3399C2;
+      border-color: #3399C2;
       opacity: 0.8;
       filter: alpha(opacity=80);
       /* For IE8 and earlier */
-      -ms-transition: all 0.25s ease-in-out;
-      /* IE 9 */
-      -webkit-transition: all 0.25s ease-in-out;
-      -moz-transition: all 0.25s ease-in-out;
       transition: all 0.25s ease-in-out; }
   #home .offset-arrow {
     margin-top: 1000px !important; }
@@ -285,7 +257,7 @@ footer {
     font-size: 30px;
     text-decoration: none; }
     #about h3 a:hover {
-      color: #3296c8; }
+      color: #3296be; }
 
 /* End About View */
 /* Project View */
@@ -359,12 +331,12 @@ footer {
     padding: 3px;
     min-width: 110px;
     height: 36px;
-    background-color: #3399CC;
+    background-color: #3399C2;
     color: #ecf0f1;
     font-weight: 700;
     vertical-align: middle;
     line-height: 30px; }
     .tag-field .tag:hover {
-      background-color: #47a3d1; }
+      background-color: #41a5cd; }
 
 /* End Whole Site */

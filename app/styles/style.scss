@@ -1,18 +1,4 @@
-@mixin transition($val1, $val2, $val3) {
-  -ms-transition: $val1 $val2 $val3; /* IE 9 */
-  -webkit-transition: $val1 $val2 $val3;
-  -moz-transition: $val1 $val2 $val3;
-  transition: $val1 $val2 $val3;
-}
-
-@mixin transform-translate($x, $y) {
-  -ms-transform: translate($x,$y); /* IE 9 */
-  -webkit-transform: translate($x,$y); /* Safari */
-  -moz-transform: translate($x,$y); /* FF */
-  transform: translate($x,$y);
-}
-
-$app-blue: #3399CC;
+$app-blue: #3399C2;
 
 html {
   box-sizing: border-box;
@@ -100,7 +86,7 @@ body {
 }
 .shadow {
   box-shadow: 0 0 5px #888888;
-  @include transition(all, 0s, ease-in !important) ;
+  transition: all 0s ease-in !important;
 }
 .center {
   text-align: center;
@@ -154,7 +140,7 @@ footer {
       a {
         margin: 6px 4px;
         text-decoration: none;
-        @include transition(all, .3s, ease-in-out);
+        transition: all 0.3s ease-in-out;
         img {
           width: 30px;
         }
@@ -207,17 +193,17 @@ footer {
       color: #000000;
       text-decoration: none;
       outline: none !important;
-      @include transition(all, 0.2s, ease-in-out);
+      transition: all 0.2s ease-in-out;
     }
     a:hover {
       color: $app-blue;
-      @include transition(all, 0.2s, ease-in-out);
+      transition: all 0.2s ease-in-out;
      }
     &:not(.selected) {
       a:hover {
         padding-bottom: 0;
         color: $app-blue;
-        @include transition(all, 0.2s, ease-in-out);
+        transition: all 0.2s ease-in-out;
       }
     }
   }
@@ -272,7 +258,7 @@ footer {
         padding: 5px 20px;
         border: 2px solid #fff;
         border-radius: 20px;
-        @include transition(all, .25s, ease-in-out);
+        transition: all 0.25s ease-in-out;
         &:hover {
           background-color:#686868 ;
           color: $app-blue;
@@ -310,7 +296,7 @@ footer {
       border-color: $app-blue;
       opacity:0.8;
       filter:alpha(opacity=80); /* For IE8 and earlier */
-      @include transition(all, .25s, ease-in-out);
+      transition: all 0.25s ease-in-out;
     }
   }
   .offset-arrow {
