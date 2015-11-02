@@ -52,6 +52,24 @@ body {
       font-size: 18px; }
     body li, body a {
       font-size: 18px; } }
+  @media all and (min-width: 1450px) {
+    body p {
+      text-align: left;
+      font-size: 22px; }
+    body h1 {
+      font-size: 58px; }
+    body h2 {
+      font-size: 44px; }
+    body h3 {
+      font-size: 40px; }
+    body h4 {
+      font-size: 34px; }
+    body h5 {
+      font-size: 28px; }
+    body h6 {
+      font-size: 22px; }
+    body li, body a {
+      font-size: 22px; } }
   body .bold {
     font-weight: 800; }
   body .left {
@@ -69,7 +87,7 @@ body {
     text-align: center; }
 
 .bg {
-  background-image: url('../assets/images/background.jpg');
+  background-image: url("../assets/images/background.jpg");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
@@ -189,6 +207,9 @@ footer {
     background-color: #fff; }
   #home #welcome {
     margin: 200px auto 600px auto; }
+    @media all and (min-width: 1450px) {
+      #home #welcome {
+        margin-top: 300px; } }
   #home #intro {
     padding-top: 40px;
     margin: 0 auto 60px auto;
@@ -199,6 +220,10 @@ footer {
     @media all and (min-width: 1200px) {
       #home #intro {
         margin-bottom: 280px; } }
+    @media all and (min-width: 1450px) {
+      #home #intro {
+        margin-top: 1000px;
+        margin-bottom: 500px; } }
     #home #intro .enter {
       width: 200px;
       text-align: center; }
@@ -257,6 +282,10 @@ footer {
   @media all and (min-width: 600px) {
     #about {
       margin-bottom: 180px; } }
+  @media all and (min-width: 1450px) {
+    #about {
+      margin-top: 100px;
+      margin-bottom: 320px; } }
   #about li {
     line-height: 1.8; }
   #about h3 a {
@@ -269,6 +298,9 @@ footer {
 /* Project View */
 #projects {
   margin: 60px auto 40px auto; }
+  @media all and (min-width: 1450px) {
+    #projects {
+      margin: 100px auto 40px auto; } }
   #projects .project-container {
     max-width: 800px;
     margin: auto;
@@ -335,6 +367,10 @@ footer {
   @media all and (min-width: 600px) {
     #contact {
       margin-bottom: 180px; } }
+  @media all and (min-width: 1450px) {
+    #contact {
+      margin-top: 100px;
+      margin-bottom: 360px; } }
   #contact a {
     text-decoration: none; }
 

@@ -74,6 +74,33 @@ body {
       font-size: 18px;
     }
   }
+  @media all and (min-width: 1450px) {
+    p {
+      text-align: left;
+      font-size: 22px;
+    }
+    h1 {
+      font-size: 58px;
+    }
+    h2 {
+      font-size: 44px;
+    }
+    h3 {
+      font-size: 40px;
+    }
+    h4 {
+      font-size: 34px;
+    }
+    h5 {
+      font-size: 28px;
+    }
+    h6 {
+      font-size: 22px;
+    }
+    li, a {
+      font-size: 22px;
+    }
+  }
   .bold {
     font-weight: 800;
   }
@@ -235,6 +262,9 @@ footer {
   }
   #welcome {
     margin: 200px auto 600px auto;
+    @media all and (min-width: 1450px) {
+      margin-top: 300px;
+    }
   }
   #intro {
     padding-top: 40px;
@@ -245,6 +275,10 @@ footer {
     }
     @media all and (min-width: 1200px) {
       margin-bottom: 280px;
+    }
+    @media all and (min-width: 1450px) {
+      margin-top: 1000px;
+      margin-bottom: 500px;
     }
     .enter {
       width: 200px;
@@ -312,6 +346,10 @@ footer {
   @media all and (min-width: 600px) {
     margin-bottom: 180px;
   }
+  @media all and (min-width: 1450px) {
+    margin-top: 100px;
+    margin-bottom: 320px;
+  }
   li {
     line-height: 1.8;
   }
@@ -330,6 +368,9 @@ footer {
 /* Project View */
 #projects {
   margin: 60px auto 40px auto;
+  @media all and (min-width: 1450px) {
+    margin: 100px auto 40px auto;
+  }
   .project-container {
     max-width: 800px;
     margin: auto;
@@ -341,6 +382,7 @@ footer {
     &:not(last-child) {
       margin-bottom: 30px;
     }
+
     .img-column {
       order: 1;
       width: 100%;
@@ -402,6 +444,10 @@ footer {
   max-width: 600px;
   @media all and (min-width: 600px) {
     margin-bottom: 180px;
+  }
+  @media all and (min-width: 1450px) {
+    margin-top: 100px;
+    margin-bottom: 360px;
   }
   a {
     text-decoration: none;
